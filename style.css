@@ -9,8 +9,25 @@ body {
   box-sizing: border-box;
 }
 
-img {
+/* img {
   transform: translate(-200px, 200px);
   transform: scale(0.5);
   transform: rotateX(90deg);
+} */
+
+.circle {
+  width: 100px;
+  padding: 50px 0;
+  line-height: 0;
+  margin: 60px auto;
+  background: pink;
+  color: white;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: background 1s, transform 1s 1s ease-in;
+}
+
+.circle:hover {
+  background: salmon;
+  transform: rotate(360deg);
 }
